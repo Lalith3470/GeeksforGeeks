@@ -3,6 +3,7 @@ class Solution:
     def addTwoLists(self, first, second):
         # code here
         # return head of sum list
+        
         s1=""
         s2=""
         while first:
