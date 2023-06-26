@@ -1,0 +1,15 @@
+class Solution:
+    def maxPathSum(self, root):
+        #code here
+        self.mx=-1000000
+        def dfs(root,sm):
+            sm+=root.data
+            if not root:
+                return
+            if root.left == None and root.right==None:
+                self.mx=max(self.mx,sm)
+                return self.mx
+            if root.left: dfs(root.left,sm)
+            if root.right:dfs(root.right,sm)
+            return self.mx
+        return dfs(root,0)
