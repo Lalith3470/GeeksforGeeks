@@ -1,5 +1,6 @@
 class Solution:
     def isPalindrome(self, head):
+        
         #code here
         lst=[]
         while head:
