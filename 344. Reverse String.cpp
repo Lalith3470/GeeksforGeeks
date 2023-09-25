@@ -1,4 +1,6 @@
 class Solution {
+
+
 public:
     void f(int i,vector<char>&s){
         if(i>=s.size()/2) return;
