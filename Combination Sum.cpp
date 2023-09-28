@@ -1,4 +1,3 @@
-
 class Solution {
   public:
     //Function to return a list of indexes denoting the required 
