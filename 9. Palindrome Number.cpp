@@ -1,5 +1,4 @@
 class Solution {
-
 public:
     bool f(string s,int i){
         if(i==s.size()/2 ) return true;
