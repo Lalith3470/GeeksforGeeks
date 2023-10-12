@@ -1,6 +1,5 @@
 class Solution {
 public:
-
     int maxAbsoluteSum(vector<int>& nums) {
         int mx=0,sm=0;
         for(auto i:nums){
